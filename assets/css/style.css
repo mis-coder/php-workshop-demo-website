@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.left-div {
+  width: 50%;
+  height: 100%;
+  background-color: #3779ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div > img {
+  height: 90%;
+  width: 70%;
+  margin-top: -4rem;
+}
+
+.left-div > h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: -6rem;
+}
+
+.right-div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-div > h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.right-div > form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-div > form > label {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.right-div > form > label > input {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid #4d4d4d;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.right-div > form > button {
+  display: flex;
+  width: 80%;
+  background-color: rgb(241, 38, 72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.right-div > form > button:hover {
+  background-color: royalblue;
+  transition: all 0.4s;
+}
+
+.right-div > p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.right-div.forgot-password {
+  width: 100%;
+}
+
+.right-div.forgot-password > form {
+  width: 50%;
+}

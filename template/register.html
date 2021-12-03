@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Demo Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-div">
+        <img src="../assets/img/happy-feeling.svg" alt="happy feeling" />
+        <h1>Welcome To Our Website!</h1>
+      </div>
+      <div class="right-div">
+        <h2>Create your free account today!</h2>
+        <form action="../scripts/register.php" method="POST">
+          <label for="first_name"
+            >Enter your first name: <input type="text" name="first_name"
+          /></label>
+          <label for="email"
+            >Enter an email: <input type="email" name="email"
+          /></label>
+          <label for="password"
+            >Enter a password: <input type="password" name="password"
+          /></label>
+          <label for="cpassword"
+            >Repeat your password: <input type="password" name="cpassword"
+          /></label>
+          <button type="submit">Register</button>
+        </form>
+        <p>Have an account already? <a href="login.html">Login Here</a></p>
+      </div>
+    </div>
+  </body>
+</html>
